@@ -44,6 +44,7 @@
     "semantic-release": "4.3.5"
   },
   "files": [
+    "cli.js",
     "index.js",
     "schema.json"
   ],
