@@ -1,0 +1,55 @@
+{
+  "name": "couchdb-timestamp-model",
+  "version": "0.0.0",
+  "description": "Data model for couchdb timestamps",
+  "main": "index.js",
+  "bin": "cli.js",
+  "scripts": {
+    "tap": "tap 'test.js'",
+    "pretest": "standard",
+    "test": "npm run tap",
+    "test:coverage": "npm run -s tap -- --cov --coverage-report=lcov",
+    "test:watch": "chokidar '**/*.js' '*.json' -c 'npm run -s tap' --initial -i node_modules -i coverage"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fielded/couchdb-timestamp-model.git"
+  },
+  "keywords": [
+    "model",
+    "jsonschema",
+    "field",
+    "couchdb",
+    "timestamp"
+  ],
+  "contributors": [
+    "Tom Vincent <tom@field.partners>"
+  ],
+  "engines": {
+    "node": ">=6"
+  },
+  "bugs": {
+    "url": "https://github.com/fielded/couchdb-timestamp-model/issues"
+  },
+  "homepage": "https://github.com/fielded/couchdb-timestamp-model#readme",
+  "dependencies": {
+    "tlvince-json-clay": "1.1.2"
+  },
+  "devDependencies": {
+    "chokidar-cli": "1.2.0",
+    "ghooks": "1.3.2",
+    "standard": "8.5.0",
+    "tap": "8.0.0",
+    "validate-commit-msg": "2.8.2"
+  },
+  "files": [
+    "index.js",
+    "schema.json"
+  ],
+  "config": {
+    "ghooks": {
+      "commit-msg": "validate-commit-msg",
+      "pre-push": "npm test"
+    }
+  }
+}

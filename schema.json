@@ -1,0 +1,20 @@
+{
+  "id": "https://schema.field.partners/1.0/timestamp#",
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "title": "Timestamp",
+  "description": "Handy properties to include in document-orientated DBs",
+  "type": "object",
+  "properties": {
+    "createdAt": {
+      "type": "string",
+      "format": "date-time"
+    },
+    "updatedAt": {
+      "type": "string",
+      "format": "date-time"
+    }
+  },
+  "required": [
+    "createdAt"
+  ]
+}
