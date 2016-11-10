@@ -53,5 +53,6 @@
       "commit-msg": "validate-commit-msg",
       "pre-push": "npm test"
     }
-  }
+  },
+  "license": "Apache-2.0"
 }
