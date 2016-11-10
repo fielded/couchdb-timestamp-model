@@ -5,7 +5,7 @@
 [![License][license-image]][license-url]
 [![semantic-release][semantic-release-image]][semantic-release-url]
 
-[travis-url]: https://travis-ci.com/fielded/couchdb-timestamp-model
+[travis-url]: https://travis-ci.org/fielded/couchdb-timestamp-model
 [travis-image]: https://img.shields.io/travis/fielded/couchdb-timestamp-model.svg
 [npm-url]: https://www.npmjs.com/package/couchdb-timestamp-model
 [npm-image]: https://img.shields.io/npm/v/couchdb-timestamp-model.svg
