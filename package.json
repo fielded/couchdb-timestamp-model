@@ -1,6 +1,6 @@
 {
   "name": "couchdb-timestamp-model",
-  "description": "Data model for couchdb timestamps",
+  "description": "Data model for CouchDB timestamps",
   "main": "index.js",
   "bin": "cli.js",
   "scripts": {

@@ -1,11 +1,20 @@
 # couchdb-timestamp-model
 
 [![Build Status][travis-image]][travis-url]
+[![npm version][npm-image]][npm-url]
+[![License][license-image]][license-url]
+[![semantic-release][semantic-release-image]][semantic-release-url]
 
 [travis-url]: https://travis-ci.com/fielded/couchdb-timestamp-model
-[travis-image]: https://travis-ci.com/fielded/couchdb-timestamp-model.svg
+[travis-image]: https://img.shields.io/travis/fielded/couchdb-timestamp-model.svg
+[npm-url]: https://www.npmjs.com/package/couchdb-timestamp-model
+[npm-image]: https://img.shields.io/npm/v/couchdb-timestamp-model.svg
+[license-url]: https://opensource.org/licenses/Apache-2.0
+[license-image]: https://img.shields.io/npm/l/couchdb-timestamp-model.svg
+[semantic-release-url]: https://github.com/semantic-release/semantic-release
+[semantic-release-image]: https://img.shields.io/badge/%20%20%F0%9F%93%A6%F0%9F%9A%80-semantic--release-e10079.svg
 
-> Data model for couchdb timestamps
+> Data model for CouchDB timestamps
 
 ## Installation
 
