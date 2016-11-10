@@ -33,7 +33,7 @@
   },
   "homepage": "https://github.com/fielded/couchdb-timestamp-model#readme",
   "dependencies": {
-    "tlvince-json-clay": "1.1.2"
+    "tlvince-json-clay": "1.2.0"
   },
   "devDependencies": {
     "chokidar-cli": "1.2.0",
